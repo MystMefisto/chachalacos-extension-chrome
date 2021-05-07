@@ -1,0 +1,23 @@
+.popup-body{
+    width:250px;
+    height: 500px;
+}
+.popup-header{
+    display: inline-block;
+    width: 75%;
+    text-align: center;
+
+}
+.popup-title{
+    display:inline;
+    font-size: 25px;
+    margin: 0 3px;
+}
+.content-title{
+    text-align: center;
+}
+.popup-footer{
+    margin-bottom: 6px;
+    position:absolute; 
+    bottom:0;
+}
