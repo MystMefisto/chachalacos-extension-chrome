@@ -3,7 +3,7 @@
     "name":"Notification app chachalacos podcast",
     "version":"0.1",
     "description": "Permite poder ver todos los programas subidos por chachalacos podcast en Youtube y spotify",
-    "author": "Mefisto COntreras",
+    "author": "Mefisto Contreras",
     "version_name":"Chachalaco alpha",
 
     "icons":{
@@ -13,5 +13,10 @@
     },
     "browser_action":{
         "default_popup":"popup.html"
+    },
+    "permissions":["tabs","storage"],
+    "background":{
+        "scripts":["js/background.js"],
+        "persistent":false
     }
 }

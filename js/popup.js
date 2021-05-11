@@ -4,7 +4,6 @@ App.Popup = ( () =>{
     function init(){
         setVersion();
         addEventHandlers();
-        validateWebsite();
     }
 
     function setVersion(){
@@ -14,11 +13,7 @@ App.Popup = ( () =>{
     }
 
     function addEventHandlers(){
-
-    }
-
-    function validateWebsite(){
-
+        const 
     }
     init();
 })()
